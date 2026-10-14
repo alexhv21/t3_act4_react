@@ -1,0 +1,58 @@
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: sans-serif;
+  padding: 0 16px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-usuario {
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 14px 0;
+}
+
+.card-usuario h3 {
+  margin: 0 0 6px 0;
+}
+
+.card-usuario p {
+  margin: 0;
+}
+
+.form-tarea {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-tarea input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+.form-tarea button {
+  padding: 8px 14px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-tareas li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
