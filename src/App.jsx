@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   //  Estado con useState
   const [tareas, setTareas] = useState([
-    { id: 1, texto: 'Configurar proyecto con Vite' },
-    { id: 2, texto: 'Crear componentes y props' },
-    { id: 3, texto: 'Manejar estado con useState' }
+    { id: 1, texto: 'Tarea PLF' },
+    { id: 2, texto: 'Tarea WEB' },
+    { id: 3, texto: 'Tarea Sistemas Programables' }
   ])
 
   const [inputTexto, setInputTexto] = useState('')
